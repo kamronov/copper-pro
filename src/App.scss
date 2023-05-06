@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Lightthaus;
+  src: url(./assets/fonts/Lighthaus.ttf);
+}
+body {
+  font-family: 'DM Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,96 @@
+.prev__btn {
+    border: 1px solid #fff;
+    border-left: none;
+    position: absolute;
+    top: 46%;
+    bottom: 46%;
+    width: 5%;
+    justify-content: flex-end;
+    padding-right: 8px;
+}
+
+.next__btn {
+    border: 1px solid #fff;
+    border-right: none;
+    position: absolute;
+    top: 46%;
+    bottom: 46%;
+    width: 5%;
+    justify-content: flex-start;
+    padding-left: 8px;
+}
+
+.slider__title {
+    position: absolute;
+    top: 25%;
+    background-image: url(../../assets/img/hero-line.png);
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+
+    h2 {
+        font-family: Lightthaus;
+        font-weight: 400;
+        font-size: 75px;
+        line-height: 70.9%;
+        color: #FFFFFF;
+    }
+
+    p {
+        margin-top: 100px;
+        width: 533px;
+        font-weight: 800;
+        font-size: 37px;
+        line-height: 90.4%;
+        color: #FFFFFF;
+    }
+
+    .costs {
+        margin-top: 40px;
+        width: 259px;
+        display: flex;
+        justify-content: space-between;
+
+        span,
+        b {
+            font-size: 23px;
+            line-height: 90.4%;
+            color: #FFFFFF;
+        }
+    }
+
+    .slider__btn {
+        margin-top: 40px;
+        background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+        font-size: 16px;
+        line-height: 96.4%;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        padding: 14px 100px;
+    }
+}
+
+.parents_indi {
+    position: relative;
+    top: -50px;
+}
+
+.carousel-indicators {
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    right: auto;
+
+    [data-bs-target] {
+        width: 12px;
+        height: 12px;
+        background-clip: content-box;
+        opacity: 1;
+    }
+
+    .active {
+        background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+        opacity: 1;
+        background-clip: content-box;
+    }
+}
