@@ -4,6 +4,11 @@
     right: 0;
     z-index: 3 !important;
 }
+.sticky {
+    transition: all ease 0.2s;
+    background:  linear-gradient(285.45deg, #0b3f37f3 38.27%, #cb8e62f8 141.81%);
+    border-radius: 0px 0px 50px 50px;
+}
 .header__list {
     width: 59%;
     padding-top:21px ;

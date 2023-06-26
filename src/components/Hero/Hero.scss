@@ -73,24 +73,24 @@
 .parents_indi {
     position: relative;
     top: -50px;
-}
-
-.carousel-indicators {
-    margin: 0;
-    position: absolute;
-    bottom: 0;
-    right: auto;
-
-    [data-bs-target] {
-        width: 12px;
-        height: 12px;
-        background-clip: content-box;
-        opacity: 1;
-    }
-
-    .active {
-        background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
-        opacity: 1;
-        background-clip: content-box;
+    
+    .carousel-indicators {
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+        right: auto;
+    
+        [data-bs-target] {
+            width: 12px;
+            height: 12px;
+            background-clip: content-box;
+            opacity: 1;
+        }
+    
+        .active {
+            background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+            opacity: 1;
+            background-clip: content-box;
+        }
     }
 }
